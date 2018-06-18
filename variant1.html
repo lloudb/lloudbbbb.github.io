@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instance = M.Carousel.init(elems,{
+            fullWidth: true,
+            indicators: true
+        });
+    });
+</script>
+<div class="container">
+    <div class="center-align">
+        <h1>Северо-Запад</h1>
+    </div>
+    <hr>
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item white-text" href="#one!">
+                    <img src="http://mebelkupi.com/image/cache/catalog/04%20verona/Verona_0051-1200x800.jpg" alt="">
+                </div>
+                <div class="carousel-item white-text" href="#two!">
+                    <img src="http://amoti.ru/wp-content/uploads/2018/03/657.jpg" alt="">
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <img src="http://st11.styapokupayu.ru/images/product/013/957/597_zoom.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="card-content">
+            <span class="card-title">Краткое название</span>
+            <p>Небольшое описание</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item white-text" href="#one!">
+                    <img src="http://st11.styapokupayu.ru/images/product/013/957/597_zoom.jpg" alt="">
+                </div>
+                <div class="carousel-item white-text" href="#two!">
+                    <img src="http://amoti.ru/wp-content/uploads/2018/03/657.jpg" alt="">
+                </div>
+                <div class="carousel-item white-text" href="#four!">
+                    <img src="http://mebelkupi.com/image/cache/catalog/04%20verona/Verona_0051-1200x800.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="card-content">
+            <span class="card-title">Краткое название</span>
+            <p>Небольшое описание</p>
+        </div>
+    </div>
+</div>
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
