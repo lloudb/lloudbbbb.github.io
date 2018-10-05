@@ -1,70 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <title>Портфолио</title>
 </head>
-
 <body>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.carousel');
-        var instance = M.Carousel.init(elems,{
-            fullWidth: true,
-            indicators: true
-        });
-    });
-</script>
-<div class="container">
-    <div class="center-align">
-        <h1>Северо-Запад</h1>
+    <!--logo-->
+    <div class="has-text-centered logo">
+        <a href="index.html"><img src="./img/logo.png" alt=""></a>
     </div>
-    <hr>
-    <div class="card">
-        <div class="card-image">
-            <div class="carousel carousel-slider center">
-                <div class="carousel-item white-text" href="#one!">
-                    <img src="http://mebelkupi.com/image/cache/catalog/04%20verona/Verona_0051-1200x800.jpg" alt="">
-                </div>
-                <div class="carousel-item white-text" href="#two!">
-                    <img src="http://amoti.ru/wp-content/uploads/2018/03/657.jpg" alt="">
-                </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                    <img src="http://st11.styapokupayu.ru/images/product/013/957/597_zoom.jpg" alt="">
-                </div>
-            </div>
+    <!---->
+
+    <!--calendar-->
+    <div class="columns calendar">
+        <div class="column">
+            <a href="https://moodle.herzen.spb.ru/mod/forum/discuss.php?d=6283"><div class="card-1 card"></div></a>
         </div>
-        <div class="card-content">
-            <span class="card-title">Краткое название</span>
-            <p>Небольшое описание</p>
+        <div class="column">
+            <a href="https://github.com/lloudb/express"><div class="card-2 card"></div></a>
+        </div>
+        <div class="column">
+            <a href="https://github.com/lloudb/express-session"><div class="card-3 card"></div></a>
+        </div>
+        <div class="column">
+            <a href="https://github.com/lloudb/route_mui"><div class="card-4 card"></div></a>
         </div>
     </div>
-    <div class="card">
-        <div class="card-image">
-            <div class="carousel carousel-slider center">
-                <div class="carousel-item white-text" href="#one!">
-                    <img src="http://st11.styapokupayu.ru/images/product/013/957/597_zoom.jpg" alt="">
-                </div>
-                <div class="carousel-item white-text" href="#two!">
-                    <img src="http://amoti.ru/wp-content/uploads/2018/03/657.jpg" alt="">
-                </div>
-                <div class="carousel-item white-text" href="#four!">
-                    <img src="http://mebelkupi.com/image/cache/catalog/04%20verona/Verona_0051-1200x800.jpg" alt="">
-                </div>
-            </div>
+    <!---->
+    
+    <!--board & silex-->
+    <div class="columns boardsilex">
+        <!--board-->
+        <a href="https://kodaktor.ru/bind02032018_c2d74" class="column is-2 kodaktor-board"></a>
+        <!---->
+        
+        <!--silex-->
+        <div class="column is-10 silex">
+            <img src="img/silex.png" alt="">
+            <ul>
+                <li><a href="https://kodaktor.ru/web29032018_e4e59">Клиент</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/">Главная страница</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/plus/4/10">Сумма</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/minus/4/10">Вычитание</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/div/4/10">Деление</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/mult/4/10">Умножение</a></li>
+                <li><a href="https://comandaherzen.herokuapp.com/pow/4/10">Возведение в степень</a></li>
+            </ul>
         </div>
-        <div class="card-content">
-            <span class="card-title">Краткое название</span>
-            <p>Небольшое описание</p>
+        <!---->
+        
+    </div>
+    <!---->
+
+    <div class="columns">
+        <div class="column is-2">
+            <a href="https://github.com/lloudb/todolist"><img src="img/todolist.png" alt=""></a>
         </div>
     </div>
-</div>
-<!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

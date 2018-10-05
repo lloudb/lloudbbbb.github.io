@@ -1,0 +1,68 @@
+.logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-1 {
+    background-image: url("./img/13.03.png");
+    background-repeat: no-repeat;
+    height: 233px;
+}
+
+.card-2 {
+    background-image: url("./img/20.03.png");
+    background-repeat: no-repeat;
+    height: 233px;
+}
+
+.card-3 {
+    background-image: url("./img/17.04.png");
+    background-repeat: no-repeat;
+    height: 233px;
+}
+
+.card-4 {
+    background-image: url("./img/8.05.png");
+    background-repeat: no-repeat;
+    height: 233px;
+}
+
+.boardsilex {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.kodaktor-board {
+    display: block;
+    background-image: url("./img/board.png");
+    background-repeat: no-repeat;
+    height: 169px;
+}
+
+.silex {
+    border: 1px solid #2b2e4a;
+    height: 169px;
+}
+
+.silex img {
+    float: left;
+    margin-top: 15px;
+}
+
+.silex ul {
+    margin-top: 45px;
+}
+
+.silex ul li {
+    float: left;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "TT Lakes";
+    color: rgb(43, 46, 74);
+}
+
+/*animation*/
+
+.card:hover {
+    border: 3px solid black;
+}
